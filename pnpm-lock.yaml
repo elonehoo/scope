@@ -45,13 +45,15 @@ importers:
     specifiers:
       '@vitejs/plugin-vue': 3.1.0
       '@vue/compiler-sfc': 3.2.39
+      scope: workspace:*
       vue: ^3.2.39
       vue-tsc: ^0.40.13
     dependencies:
-      vue: 3.2.39
+      scope: link:../core
     devDependencies:
       '@vitejs/plugin-vue': 3.1.0_vite@3.1.0+vue@3.2.39
       '@vue/compiler-sfc': 3.2.39
+      vue: 3.2.39
       vue-tsc: 0.40.13_typescript@4.8.2
 
 packages:

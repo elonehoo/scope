@@ -7,14 +7,15 @@
   "license": "MIT",
   "author": "Elone Hoo <huchengyea@163.com>",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3333 --open",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.39"
+    "scope":"workspace:*"
   },
   "devDependencies": {
+    "vue": "^3.2.39",
     "@vitejs/plugin-vue": "3.1.0",
     "@vue/compiler-sfc": "3.2.39",
     "vue-tsc": "^0.40.13"

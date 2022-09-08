@@ -3,11 +3,15 @@ import { computed } from 'vue'
 
 export type Size = 'nano' | 'mini' | 'small' | 'medium' | 'large'
 
-const props = defineProps<{
+const props = withDefaults(defineProps<{
   size?: Size
   avatar?: string
   name?: string
-}>()
+}>(),{
+  name:'Elone Hoo',
+  size: 'medium',
+  avatar: undefined
+})
 
 const classes = computed(() => [props.size ?? 'medium'])
 
