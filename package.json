@@ -1,0 +1,25 @@
+{
+  "name": "@scope/monorepo",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Framework Components for Vue.js",
+  "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
+  "scripts": {
+    "release": "bumpp package.json core/package.json --commit --push --tag && pnpm run core && pnpm -r publish --access public",
+    "typeCheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "core-build": "pnpm -C core run build"
+  },
+  "devDependencies": {
+    "@elonehoo/eslint-config": "2.0.0",
+    "@elonehoo/rimraf": "0.0.1",
+    "bumpp": "8.2.1",
+    "eslint": "8.23.0",
+    "pnpm": "7.11.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.8.2",
+    "vite": "3.1.0"
+  }
+}
