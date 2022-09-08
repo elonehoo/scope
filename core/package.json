@@ -2,7 +2,7 @@
   "name": "scope",
   "type": "module",
   "version": "0.0.0",
-  "description": "Framework Components for Vue.js",
+  "description": "Simple vue component.",
   "keywords": [
     "vue",
     "components"
@@ -11,10 +11,10 @@
   "author": "Elone Hoo <huchengyea@163.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elonehoo/pick"
+    "url": "git+https://github.com/elonehoo/scope"
   },
-  "homepage": "https://github.com/elonehoo/pick#readme",
-  "bugs": "https://github.com/elonehoo/pick/issues",
+  "homepage": "https://github.com/elonehoo/scope#readme",
+  "bugs": "https://github.com/elonehoo/scope/issues",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
