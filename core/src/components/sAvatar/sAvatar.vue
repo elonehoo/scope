@@ -4,13 +4,13 @@ import { computed } from 'vue'
 export type Size = 'nano' | 'mini' | 'small' | 'medium' | 'large'
 
 const props = withDefaults(defineProps<{
-  size?: Size
-  avatar?: string
+  size?: Size,
+  avatar?: string,
   name?: string
-}>(),{
-  name:'Elone Hoo',
+}>(), {
   size: 'medium',
-  avatar: undefined
+  avatar: '',
+  name: 'Elone Hoo'
 })
 
 const classes = computed(() => [props.size ?? 'medium'])
@@ -20,7 +20,7 @@ const initial = computed(() => props.name?.charAt(0).toUpperCase())
 
   <template>
     <div class="SAvatar" :class="classes">
-      <img v-if="avatar" class="img" :src="avatar">
+      <img v-if="props.avatar" class="img" :src="props.avatar">
       <p v-else class="initial">{{ initial }}</p>
     </div>
   </template>

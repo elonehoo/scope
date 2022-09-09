@@ -1,0 +1,23 @@
+{
+  "name": "@scope/stories",
+  "private": "true",
+  "type": "module",
+  "version": "0.0.0",
+  "description": "Simple vue component.",
+  "license": "MIT",
+  "author": "Elone Hoo <huchengyea@163.com>",
+  "scripts": {
+    "dev": "histoire dev --port 3000 --open",
+    "build": "histoire build",
+    "preview": "histoire previewcd"
+  },
+  "dependencies": {
+    "scope": "workspace:*"
+  },
+  "devDependencies": {
+    "@histoire/plugin-vue": "^0.10.7",
+    "@vitejs/plugin-vue": "3.1.0",
+    "histoire": "^0.10.7",
+    "vue": "^3.2.39"
+  }
+}

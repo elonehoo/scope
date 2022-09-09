@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "core-build": "pnpm -C core run build",
-    "example-dev": "pnpm -C example run dev"
+    "example-dev": "pnpm -C example run dev",
+    "stories-dev":"pnpm -C stories run dev"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
