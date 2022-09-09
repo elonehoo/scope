@@ -28,9 +28,9 @@ importers:
       '@elonehoo/vite-plugin-type-ts': 0.0.1
       '@vitejs/plugin-vue': 3.1.0
       '@vue/compiler-sfc': 3.2.39
-      normalize.css: ^8.0.1
+      normalize.css: 8.0.1
       vue: ^3.2.39
-      vue-tsc: ^0.40.13
+      vue-tsc: 0.40.13
     dependencies:
       vue: 3.2.39
     devDependencies:
@@ -46,8 +46,8 @@ importers:
       '@vitejs/plugin-vue': 3.1.0
       '@vue/compiler-sfc': 3.2.39
       scope: workspace:*
-      vue: ^3.2.39
-      vue-tsc: ^0.40.13
+      vue: 3.2.39
+      vue-tsc: 0.40.13
     dependencies:
       scope: link:../core
     devDependencies:
@@ -58,11 +58,11 @@ importers:
 
   stories:
     specifiers:
-      '@histoire/plugin-vue': ^0.10.7
+      '@histoire/plugin-vue': 0.10.7
       '@vitejs/plugin-vue': 3.1.0
-      histoire: ^0.10.7
+      histoire: 0.10.7
       scope: workspace:*
-      vue: ^3.2.39
+      vue: 3.2.39
     dependencies:
       scope: link:../core
     devDependencies:
