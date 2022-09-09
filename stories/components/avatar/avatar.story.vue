@@ -5,7 +5,7 @@
 
 <template>
   <Story title="components/avatar/SAvatar">
-      <s-avatar name="Elone Hoo" />
+      <SAvatar/>
   </Story>
 
 </template>
