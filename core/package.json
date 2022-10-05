@@ -36,7 +36,7 @@
   "devDependencies": {
     "@elonehoo/vite-plugin-dist-css": "0.0.4",
     "@elonehoo/vite-plugin-type-ts": "0.0.1",
-    "@iconify/vue": "^4.0.0",
+    "@iconify/vue": "4.0.0",
     "@vitejs/plugin-vue": "3.1.0",
     "@vue/compiler-sfc": "3.2.39",
     "normalize.css": "8.0.1",
