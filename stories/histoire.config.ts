@@ -7,7 +7,9 @@ export default defineConfig({
   ],
 
   setupFile: './histoire.setup.ts',
-
+  viteNodeInlineDeps: [
+    /scope/,
+  ],
   theme: {
     title: 'Scope',
     colors: {

@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <Story title="components/avatar/SAvatar">
+  <Story title="components/SAvatar">
       <s-avatar/>
   </Story>
 
