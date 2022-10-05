@@ -1,11 +1,10 @@
 <script setup lang="ts">
-  import { SAvatar } from 'scope'
-
+import { SAvatar } from 'scope'
 </script>
 
 <template>
   <Story title="components/SAvatar">
-      <s-avatar/>
+      <SAvatar name="Elone Hoo"/>
   </Story>
 
 </template>
