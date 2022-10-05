@@ -1,8 +1,6 @@
 {
   "name": "@scope/monorepo",
-  "type": "module",
   "version": "0.0.0",
-  "private": true,
   "description": "Simple vue component.",
   "author": "Elone Hoo <huchengyea@163.com> (https://github.com/elonehoo)",
   "scripts": {

@@ -1,9 +1,9 @@
 import type { App, Plugin } from 'vue'
-import SAvatar from './s-avatar.vue'
+import SAvatar from './SAvatar.vue'
 
 export const SAvatarPlugin: Plugin = {
   install(app: App) {
-    app.component('s-avatar', SAvatar)
+    app.component('SAvatar', SAvatar)
   },
 }
 

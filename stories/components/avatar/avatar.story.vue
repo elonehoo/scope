@@ -5,7 +5,7 @@
 
 <template>
   <Story title="components/avatar/SAvatar">
-      <SAvatar/>
+      <s-avatar/>
   </Story>
 
 </template>
