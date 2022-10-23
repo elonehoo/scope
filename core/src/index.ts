@@ -3,6 +3,8 @@ import type { App, Plugin } from 'vue'
 import { SAvatarPlugin } from './components/avatar'
 import { SIconPlugin } from './components/icon'
 
+import './style/bootstrap.css'
+
 const pickPlugin: Plugin = {
   install(app: App) {
     SAvatarPlugin.install?.(app)
@@ -11,8 +13,6 @@ const pickPlugin: Plugin = {
 }
 
 export default pickPlugin
-
-import './style/bootstrap.css'
 
 export * from './components/avatar'
 export * from './components/icon'

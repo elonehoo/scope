@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import {Icon, IconifyIcon} from '@iconify/vue/dist/offline'
+import type { IconifyIcon } from '@iconify/vue/dist/offline'
+import { Icon } from '@iconify/vue/dist/offline'
 import type { DefineComponent } from 'vue'
 
 defineProps<{
@@ -9,7 +10,7 @@ defineProps<{
 
 <template>
   <Icon v-if="typeof icon['body'] === 'string'" :icon="(icon as IconifyIcon)" />
-  <component v-else :is="icon" />
+  <component :is="icon" v-else />
 </template>
 
 <style scoped>

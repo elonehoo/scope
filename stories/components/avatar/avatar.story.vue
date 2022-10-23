@@ -4,9 +4,8 @@ import { SAvatar } from 'scope'
 
 <template>
   <Story title="components/SAvatar">
-      <SAvatar name="Elone Hoo"/>
+    <SAvatar name="Elone Hoo" />
   </Story>
-
 </template>
 
 <docs lang="md">

@@ -12,14 +12,16 @@ const props = defineProps<{
 const classes = computed(() => [props.size ?? 'medium'])
 
 const initial = computed(() => props.name?.charAt(0).toUpperCase())
-  </script>
+</script>
 
-  <template>
-    <div class="SAvatar" :class="classes">
-      <img v-if="props.avatar" class="img" :src="props.avatar">
-      <p v-else class="initial">{{ initial }}</p>
-    </div>
-  </template>
+<template>
+  <div class="SAvatar" :class="classes">
+    <img v-if="props.avatar" class="img" :src="props.avatar">
+    <p v-else class="initial">
+      {{ initial }}
+    </p>
+  </div>
+</template>
 
 <style scoped>
   .SAvatar {
