@@ -15,9 +15,9 @@
     "scope": "workspace:*"
   },
   "devDependencies": {
-    "@histoire/plugin-vue": "0.12.4",
+    "@histoire/plugin-vue": "0.15.8",
     "@vitejs/plugin-vue": "3.2.0",
-    "histoire": "0.12.4",
-    "vue": "3.2.45"
+    "histoire": "0.15.9",
+    "vue": "3.2.47"
   }
 }
